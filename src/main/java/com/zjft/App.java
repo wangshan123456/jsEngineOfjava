@@ -16,7 +16,7 @@ public class App {
         SpringApplication.run(App.class, args);
         System.out.println("\n" +
                 "\n" +
-                "               o8o  .o88o.     .   \n" +
+                "               o8o  .o88o1.     .   \n" +
                 "               `\"'  888 `\"   .o8   \n" +
                 "  oooooooo    oooo o888oo  .o888oo \n" +
                 " d'\"\"7d8P     `888  888      888   \n" +
