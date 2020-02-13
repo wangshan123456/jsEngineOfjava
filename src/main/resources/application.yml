@@ -1,0 +1,39 @@
+server:
+  port: 8848
+spring:
+  application:
+    name: ZJMS
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+  client:
+    service-url:
+      defaultZone: http://10.34.12.117:8761/eureka/
+
+logging:
+  config: classpath:logback-spring.xml
+  path: logs
+  level:
+    root: info
+
+zjft:
+  ZJMS:
+    stateXmlFile:
+      path: C:\\Users\\山高人为峰\\Desktop\\中台系统微服务开发\\中台系统微服务\\data\\state.json
+    JScriptFile:
+      path: C:\\Users\\山高人为峰\\Desktop\\中台系统微服务开发\\中台系统微服务\\data\\javascript.js
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+
