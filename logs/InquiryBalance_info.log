@@ -1,4 +1,5 @@
-2019-11-26 16:14:41.018 [ERROR] [main] org.springframework.boot.SpringApplication Line:837 - Application run failed 
+2019-11-26 16:14:41.018 [ERROR]zczxc
+ [main] org.springframework.boot.SpringApplication Line:837 - Application run failed
 java.lang.IllegalStateException: Logback configuration error detected: 
 ERROR in ch.qos.logback.core.rolling.RollingFileAppender[Simple_FILE] - 'FileNamePattern' option has the same value "logs/info/InquiryBalance_info-%d{yyyy-MM-dd}_%i.log" as that given for appender [FILE] defined earlier.
 ERROR in ch.qos.logback.core.rolling.RollingFileAppender[Simple_FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
