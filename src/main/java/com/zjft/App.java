@@ -14,6 +14,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class App {
     public static void main( String[] args ) {
         SpringApplication.run(App.class, args);
+        System.out.println("test");
         System.out.println("\n" +
                 "\n" +
                 "               o8o  .o88o1.     .   \n" +

@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaScriptOfJava" />
+        <module name="jsEngineOfjava1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JavaScriptOfJava" options="-parameters" />
+      <module name="jsEngineOfjava1" options="-parameters" />
     </option>
   </component>
 </project>
