@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+<<<<<<< Updated upstream
 ### Java template
 # Compiled class file
 *.class
@@ -25,3 +26,13 @@
 hs_err_pid*
 
 .idea/workspace.xml
+=======
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+>>>>>>> Stashed changes
