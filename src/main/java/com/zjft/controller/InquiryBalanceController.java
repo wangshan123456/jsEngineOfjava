@@ -25,7 +25,8 @@ public class InquiryBalanceController {
 
     @Autowired
     StateMachineBean stateMachineBean;
-
+    
+    //加个注释
     @PostMapping(value = "/test")
     public Map<String,Object> handler(@RequestBody String params) {
         logger.info("InquiryBalanceController::handler requestParam param=[{}]",params);
