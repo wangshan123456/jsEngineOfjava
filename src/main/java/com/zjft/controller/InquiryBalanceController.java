@@ -26,6 +26,14 @@ public class InquiryBalanceController {
     @Autowired
     StateMachineBean stateMachineBean;
 
+    /**
+    *功能描述
+    * @author shanwang
+    * @date 2020/3/6
+    * @param
+     * @param params
+    * @return java.util.Map<java.lang.String,java.lang.Object>
+    */
     @PostMapping(value = "/test")
     public Map<String,Object> handler(@RequestBody String params) {
         logger.info("InquiryBalanceController::handler requestParam param=[{}]",params);
