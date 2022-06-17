@@ -20,7 +20,7 @@
   <properties>
     <spring.boot.version>2.0.9.RELEASE</spring.boot.version>
     <spring.cloud.version>Finchley.SR2</spring.cloud.version>
-    <fastjson.alibaba.version>1.2.31</fastjson.alibaba.version>
+    <fastjson.alibaba.version>1.2.83</fastjson.alibaba.version>
   </properties>
   <dependencyManagement>
     <dependencies>
